@@ -66,7 +66,26 @@ Content-Type: application/json; charset=utf-8
 
 I used Swagger UI to test the CRUD endpoints.
 
-![Swagger UI](screenshots/swagger.png)
+
+## Swagger UI
+
+I used Swagger UI to test the CRUD endpoints.
+
+### API Documentation
+![Swagger UI](screenshots/swagger%20%281%29.png)
+
+### Create Task
+![Create Task](screenshots/swagger%20%282%29.png)
+
+### Update Task
+![Update Task](screenshots/swagger%20%283%29.png)
+
+### Delete Task
+![Delete Task](screenshots/swagger%20%284%29.png)
+
+### Delete Response
+![Delete Response](screenshots/swagger%20%285%29.png)
+
 
 ## What I Learned
 
