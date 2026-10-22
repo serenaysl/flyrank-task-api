@@ -1,3 +1,4 @@
+
 # Task API
 
 This is my first CRUD API project for the FlyRank Backend Internship.
@@ -17,15 +18,19 @@ The tasks are stored in memory, so they reset when the server restarts.
 
 First, install the dependencies:
 
-`npm install`
+```bash
+npm install
+```
 
 Then start the server:
 
-`node index.js`
+```bash
+node index.js
+```
 
-The API runs at `http://localhost:3000`.
+The API runs at http://localhost:3000.
 
-Swagger documentation is available at `http://localhost:3000/docs`.
+Swagger documentation is available at http://localhost:3000/docs.
 
 ## API Endpoints
 
@@ -43,7 +48,9 @@ Swagger documentation is available at `http://localhost:3000/docs`.
 
 To get a task, run:
 
-`curl -i http://localhost:3000/tasks/1`
+```bash
+curl -i http://localhost:3000/tasks/1
+```
 
 Example response:
 
@@ -56,36 +63,17 @@ Content-Type: application/json; charset=utf-8
 
 ## Status Codes
 
-- 200 — Request successful
-- 201 — Task created
-- 204 — Task deleted
-- 400 — Invalid input
-- 404 — Task not found
+- 200 - Request successful
+- 201 - Task created
+- 204 - Task deleted
+- 400 - Invalid input
+- 404 - Task not found
 
 ## Swagger UI
 
 I used Swagger UI to test the CRUD endpoints.
 
-
-## Swagger UI
-
-I used Swagger UI to test the CRUD endpoints.
-
-### API Documentation
-![Swagger UI](screenshots/swagger%20%281%29.png)
-
-### Create Task
-![Create Task](screenshots/swagger%20%282%29.png)
-
-### Update Task
-![Update Task](screenshots/swagger%20%283%29.png)
-
-### Delete Task
-![Delete Task](screenshots/swagger%20%284%29.png)
-
-### Delete Response
-![Delete Response](screenshots/swagger%20%285%29.png)
-
+![Swagger UI](swagger.png)
 
 ## What I Learned
 
